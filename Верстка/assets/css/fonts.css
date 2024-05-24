@@ -1,0 +1,56 @@
+@font-face {
+    /*Font: Inter-regular*/
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    /*Font: Poppins-regular*/
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';/*600px*/
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+    font-weight: 'SemiBold';
+}
+@font-face{
+    font-family: 'Poppins-Bold';/*700px*/
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: 'Poppins-Regular';/*400px*/
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: 'Poppins-Medium';/*500px*/
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: 'Inter-Medium';/*500px*/
+    src: url(../fonts/Inter/Inter-Medium.otf);
+}
+@font-face{
+    font-family: 'Inter-Bold';/*700px*/
+    src: url(../fonts/Inter/Inter-Bold.otf);
+}
+@font-face{
+    font-family: 'Inter-Regular';/*400px*/
+    src: url(../fonts/Inter/Inter-Regular.otf);
+}
+@font-face{
+    font-family: 'Plus-Jakarta-Sans';
+    src: url(../fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf);
+}
+@font-face{
+    font-family: 'Public Sans-Bold';/*700px*/
+    src: url(../fonts/PublicSans/PublicSans-Bold.ttf);
+}
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope/Manrope-Regular.ttf);
+}
+@font-face{
+    font-family: 'Manrope-800';
+    src: url(../fonts/Manrope/Manrope-ExtraBold.ttf);
+}

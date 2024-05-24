@@ -1,0 +1,599 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+}
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.container__Pricing{    /*Главный контейнер*/
+    width: 1440px;
+    background-color: #F9F9F9;
+.Pricing__header{    /*Шапка*/
+    width: 1440px;
+    height: 135px;
+    padding: 48px 0 0 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+img{
+    width: 112px;
+    height: 42px;
+}
+.header__textBlock{
+    width: 375.5px;
+    height: 27px;
+    margin-left: 103px;
+    display: flex;
+    flex-direction: row;
+    gap: 35.5px;
+
+p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+p.change-text-1:hover{
+    color: #6C5FBC;
+}
+p.change-text-2:hover{
+    color: #6C5FBC;
+}
+p.change-text-3:hover{
+    color: #6C5FBC;
+}
+p.change-text-4:hover{
+    color: #6C5FBC;
+}
+}
+.header__buttons{
+    width: 233px;
+    height: 63px;
+    margin-left: 425px;
+.button_1{
+    width: 102.5px;
+    height: 62.5px;
+    border: none;
+    background-color: #fff;
+p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+}
+}
+.button_2{
+    width: 121.5px;
+    height: 62.5px;
+    border: none;
+    background-color: #6C5FBC;
+    border-radius: 18px;
+p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+}
+}
+}
+hr{
+    margin-left: 97px;
+    width: 1246px; 
+}
+.Our-Pricing{    /*Контейнер описания приложения*/
+    width: 1248px;
+    height: 823.44px;
+    margin: 66px 0 0 96px;
+.title-block{
+    width: 1248px;
+    height: 334px;
+    background-color: #5C4EAE;
+.title{
+    height: 77.92px;
+    width: 325.5px;
+    padding: 43px 0 0 422px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+img{
+    width: 83px;
+    height: 77.92px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #F9F9F9;
+}
+}
+}
+.Home-dashboard{
+    width: 887px;
+    height: 630.76px;
+    display: flex;
+    flex-direction: column;
+.IMG1{
+    width: 41px;
+    height: 36px;
+    position: relative;
+    bottom: 201.5px;
+    left: 1091.5px;
+}
+.IMG2{
+    width: 887px;
+    height: 630.76px;
+    position: relative;
+    bottom: 194px;
+    left: 183px;
+}
+.IMG3{
+    width: 46.69px;
+    height: 40.44px;
+    position: relative;
+    bottom: 191px;
+    left: 137px;
+}
+}
+}
+.price_card{    /*Карта описания приемуществ*/
+    width: 1251px;
+    height: 1171px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 151px 0 0 93px;
+    border: none;
+    border-radius: 10.67px;
+hr{
+    width: 100%;
+    margin: 0 auto;
+}
+.Pricing-Headlines{
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    padding: 51px 0 0 65px;
+.Pricing{
+    width: 135px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+.Basic{
+    width: 148px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-left: 428px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+}
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+.Premium{
+    width: 158px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-left: 225px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+}
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+}
+.price{
+    height: 152px;
+    padding: 40px 0 0 629px;
+    display: flex;
+    flex-direction: row;
+.FirstPrice{
+    width: 112px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+.dl{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+.mount{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E757C;
+    margin-top: 40px;
+}
+}
+.SecondPrice{
+    width: 112px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 261px;
+.dl{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+.mount{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E757C;
+    margin-top: 40px;
+}
+}
+}
+.Core-Features{
+    height: 647px;
+    padding: 50px 0 0 59px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.features{
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+.Support{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    margin-right: 418px;
+}
+img:nth-of-type(1){
+    margin-right: 338px;
+}
+}
+div{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    margin-right: 422px;
+}
+img:nth-of-type(1){
+    margin-right: 338px;
+}
+}
+.Off-Food-Deals{
+p{
+    margin-right: 353px;
+}
+}
+.Transaction-History{
+p{
+    margin-right: 350px;
+}
+}
+.Weekend-Deals{
+p{
+    margin-right: 389px;
+}
+}
+.Dashboard-Access{
+p{
+    margin-right: 352px;
+}
+}
+.Premium-Group-Access{
+p{
+    margin-right: 301px;
+}
+}
+}
+}
+.buttons{
+    height: 161.64px;
+    padding-left: 623px;
+    display: flex;
+    flex-direction: row;
+    gap: 228px;
+    align-items: center;
+button{
+    width: 146px;
+    height: 58.94px;
+    background-color: #6C5FBC;
+    border: none;
+    border-radius: 8.83px;
+    color: #F9F9F9;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16.27px;
+    line-height: 24.41px;
+}
+}
+}
+}
+/* Контейнер с контролем покупок */
+.ControlPurchase{
+    display: flex;
+    gap: 141px;
+    margin-top: 221px;
+.PurchaseText{
+    p:nth-of-type(1){
+        margin: 103px 0 0 108px;
+        font-family: 'Poppins-Bold';
+        font-size: 50.92px;
+        line-height: 58.2px;
+    span{
+        font-family: 'Poppins-Bold';
+        font-size: 50.92px;
+        line-height: 58.2px;
+        color: #6C5FBC  ;
+    }
+    }
+.st{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 48px 0 0 97px;
+.st1{
+    width: 345.17px;
+    height: 88.3px;
+    border-radius: 12px;
+    opacity: 0px;
+    box-shadow: 0px 20.06800651550293px 30.10201072692871px 0px #4646461A;
+    display: flex;
+.imageText{
+    display: flex;
+    gap: 20px;
+    img{
+        width: 77px;
+        height: 80px;
+        margin: 4px 0 0 17px;
+    }
+.text{
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 19.06px;
+        font-weight: 600;
+        line-height: 26.69px;
+        margin: 17px 0 4px 0;
+    }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-size: 12.04px; 
+        font-weight: 500;
+        line-height: 16.86px;
+    }      
+}
+}
+p:nth-of-type(1){
+    font-family: 'Poppins-Regular';
+    font-size: 13.04px;
+    font-weight: 500;
+    line-height: 18.26px;
+    margin: 56px 0 0 43px;
+
+
+}
+}
+}
+}
+.PurchaseIllustration{
+    width: 534px;
+    height: 466px;
+    border: 1.57px solid #EDF2F7;
+    border-radius: 25.13px;
+    position: relative;
+    margin: 100px 0 0 0;
+    box-shadow:  0 30px 50px #4646461A ;
+p:nth-of-type(1){
+    font-family: 'Manrope-800';
+    font-size: 28px;
+    padding: 46px 0 0 41px;
+    width: 190px;
+}
+button{
+    width: 176px;
+    height: 53px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 38px;
+    right: 38px;
+    display: flex;
+    border: none;
+    border-radius: 12px;
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 19px;
+    padding: 0;
+    width: 110px;
+    margin: 12px 0 0 19px;
+
+}
+img:nth-of-type(1){
+    margin: 14px 14px 0 0 ;
+}
+}
+.card{
+    border: 1.57px solid #EDF2F7;
+    width: 459px;
+    height: 135px;  
+    margin: 37px 0 22px 37px;
+    border-radius: 19px;
+.name{
+    display: flex;
+    gap: 18px;
+    width: 410px;
+    margin: 25px 0 0 25px;
+img:nth-of-type(1){
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.text{
+    p:nth-of-type(1){
+        padding: 0;
+        font-size: 19px;
+        color: #1A202C;
+        margin: 0;
+    }    
+    p:nth-of-type(2){
+        color: #A0AEC0;
+        font-family: 'Manrope';
+        font-weight: 500;
+        margin: 3px 0 0 0;
+    }
+}
+p:nth-of-type(1){
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Manrope-800';
+    margin: 12px 0 0 0;
+}
+
+}
+img:nth-of-type(1){
+    margin: 20px 0 0 25px;
+}   
+}
+}
+}   
+hr{
+    border: 1px solid #CBCBCB;
+    width: 1246px;
+    margin: 138px 0 0 101px;
+}
+.footer{    /*Подвал*/
+    width: 1440px;
+    height: 345px;
+    padding: 96px 0 0 103px;
+    background-color: #EAEAEA;
+    margin-top: 150px;
+.logo-menu{
+    height: 57px;
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+img{
+    width: 150.7px;
+    height: 57px;
+}
+.menu{
+    width: 456px;
+    height: 27px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    color: #999999;
+}
+}
+}
+hr{
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-contact{    /*Копирайт и контакты*/
+    margin-top: 57px;
+    width: 1237.62px;
+    height: 25px;
+    gap: 717px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+}
+.contacts-image{
+    width: 234.46px;
+    height: 21.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 53.8px;
+}
+}
+}
+}

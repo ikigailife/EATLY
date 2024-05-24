@@ -1,0 +1,746 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+/* Общий контейнер */
+.container{
+    width: 1440px;
+                /* начало header */
+header{
+    width: 1248px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0 0 96px;
+.logo{
+    width: 112px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    margin: 9px 103px 0 0 ;
+img:nth-of-type(1){
+    width: 46px;
+    height: 42px;
+    }
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 21px;
+    line-height: 28px;
+    color: #6C5FBC;
+    margin: 7px 0 0 11px;
+    }    
+}
+.nav{
+    width: 374px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    margin: 17px 425px 0 0 ;
+h1{
+    font-family: 'Inter-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C5FBC;
+    }
+p{
+    font-family: 'Inter-Medium';
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+    margin: 0;
+    }  
+}
+.button{
+button:nth-of-type(1){
+    width: 103px;
+    height: 63px;
+    padding: 0 0 0 24px;
+    border: none;
+    background-color: white;
+p{
+    width: 49px;
+    height: 27px;
+    font-family: 'Inter-Medium';
+    font-weight: 700;
+    font-size: 18px;
+    color: #606060;
+    margin: 0;
+    }
+}
+button:nth-of-type(2){
+    width: 122px;
+    height: 63px;
+    padding: 0 0 0 27px;
+    border-radius: 18px;
+    border: none;
+    background-color: #6C5FBC;
+p{
+    font-family: 'Inter-Medium';
+    width: 68px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F9F9F9;
+    margin: 0;
+    }
+}
+
+}
+}               
+
+hr:nth-of-type(1){
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 25px 0 0 97px;
+}
+
+/* Блок с дополнительной информацией */
+aside{
+display: flex;
+
+.BannerSearch{
+    width: 814px;
+    height: 618px;
+    margin: 82px 56px 0 97px;
+.Banner1{
+    width: 814px;
+    height: 345px;
+    position: relative;
+    img{
+        position: absolute;
+        margin: 0px 0 0 758px;
+    }
+.Banner{
+    width: 758px;
+    height: 251px;
+    background-color: #6C5FBC;
+    border-radius: 19px;
+    position: absolute;
+    top: 38px;
+    img:nth-of-type(1){
+        margin-left: 300px; 
+        }
+    img:nth-of-type(2){
+        margin-left: 555px;
+    }
+    img:nth-of-type(3){
+        margin-left: 0px;
+    }
+    img:nth-of-type(4){
+        margin-left: 0px;
+    }
+    p:nth-of-type(1){
+        color: #F7F8FA;
+        font-family: 'Poppins-Bold';
+        font-size: 75px;
+        margin: 30px 0 0 58px;
+        position: absolute;
+
+    }
+    p:nth-of-type(2){
+        color: #7C6FCD;
+        font-family: 'Poppins-Bold';
+        font-size: 87px;
+        margin: 91px 0 0 61px;
+        position: absolute;
+        
+    }
+    img:nth-of-type(5){
+        position: absolute;
+        left: -300px;
+        top: 50px;
+
+    }
+
+    
+    
+    }
+.SlidersLines{
+    div:nth-of-type(1){
+        width: 62px;
+        height: 6px;
+        background-color: #6C5FBC;
+        border-radius: 55px;
+        position: absolute;
+        top: 337px;
+        left: 287px;
+    }
+    div:nth-of-type(2){
+        width: 30px;
+        height: 6px;
+        background-color: #DBD9EE;
+        border-radius: 55px;
+        position: absolute;
+        top: 337px;
+        left: 357px;
+
+    }
+    div:nth-of-type(3){
+        width: 30px;
+        height: 6px;
+        background-color: #DBD9EE;
+        border-radius: 55px;
+        position: absolute;
+        top: 337px;
+        left: 395px;
+
+    }
+}
+}
+.Search{
+    margin: 88px 0 0 0;
+.BGsearch{
+    width: 757px;
+    height: 75px;
+    background-color: #EDEDED;
+    border-radius: 30px;
+    position: relative;
+    img:nth-of-type(1){
+        width: 40px;
+        margin: 20px 0 0 28px;
+    }
+    p{
+        color: #AAABBA;
+        font-family: 'Poppins-Medium';
+        font-size: 20px;
+        position: absolute;
+        top: 24px;
+        left: 92px;
+    }
+}
+.SelectResturent{
+    width: 757px;
+    height: 75px;
+    background: linear-gradient(to left, #6C5FBC 50%, transparent 50%);
+    border: 2.17px solid #6C5FBC;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 35px;
+p:nth-of-type(1){
+    font-family: 'Poppins-medium';
+    color: #6C5FBC;
+    font-size: 20px;
+    margin: 21px 0 0 164px;
+}
+p:nth-of-type(2){
+    font-family: 'Poppins-medium';
+    color: white;
+    font-size: 20px;
+    margin: 21px 0 0 306px;
+}
+}
+    }
+
+}
+.Filter{
+    width: 377px;
+    height: 571px;
+    margin-top: 114px;
+    box-shadow: 10px 25px 60px 0px #005A6433;
+    border-radius: 23px;
+.Group{
+    margin: 32px 0 0 32px;
+    width: 313px;
+    height: 520px;
+.Category{
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        font-size: 21px;
+        color: #323142;
+    }
+.food{
+    display: flex;
+    width: 311px;
+    height: 108px;
+    gap: 12.87px;
+    margin: 17.43px 0 0 0;
+
+img:nth-of-type(1){
+    box-shadow: 0px 14.71px 22.07px 0px #877DC840;
+}
+img:nth-of-type(2){
+    box-shadow: 0px 16.4px 24.6px 0px #877DC840;
+
+}
+img:nth-of-type(3){
+    box-shadow: 0px 14.71px 22.07px 0px #877DC840;
+}
+img:nth-of-type(4){
+    box-shadow: 0px 14.71px 22.07px 0px #877DC840;
+}
+}
+}
+.SortBy{
+    width: 301px;
+    height: 109px;
+    margin: 25px 0 0 1px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        color: #323142;
+        font-size: 21px;
+
+    }
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13px;;
+    p:nth-of-type(1){
+        color: #ACADB9;
+        font-family: 'Poppins-medium';
+        font-size: 15px;
+        margin-right: 97px;
+    }
+    p:nth-of-type(2){
+        color: #6C5FBC;
+        font-family: 'Poppins-medium';
+        font-size: 15px;
+    }
+    p:nth-of-type(3){
+        color: #ACADB9;
+        font-family: 'Poppins-medium';
+        font-size: 15px;
+        margin-top: 8px;
+    }
+}
+
+}
+.price{
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        font-size: 22px;
+        color: #323142;
+
+    }
+.range{
+    position: relative;
+    .link{
+        width: 303px;
+        height: 6px;
+        background-color: #6C5FBC;
+        border: 0.88px solid #6C5FBC;
+        border-radius: 9px;
+        margin-top: 27px;
+    }
+    .circle{
+        width: 25px;
+        height: 25px;
+        background-color: #BBB6D7;
+        border-radius: 100%;
+        position: absolute;
+        top: -10px;
+        left: 35px;
+        padding: 4px;
+        .circle0{
+            width: 16px;
+            height: 16px;
+            background-color: #6C5FBC;
+            border-radius: 100%;
+            
+        }
+    }
+    .text{
+        display: flex;
+        gap: 30px;
+        margin: 13px 0 0 5px;
+        p{
+    font-family: 'Poppins-medium';
+    font-size: 11px;
+    color: #C2C3CB;
+}
+    }
+
+}
+.btn{
+    button{
+        width: 313px;
+        height: 60px;
+        background-color: #6C5FBC;
+        border: none;
+        border-radius: 14px;
+        font-family: 'Poppins-SemiBold';
+        color: #FFF3EB;
+        margin: 38px 0 0 1px;
+    }
+}
+}
+}
+    }
+}      
+
+/* Контейнер с популярными блюдами */
+.OurTopRestaurants{
+    height: 410px;
+    margin-top: 140px;
+    .text{
+        display: flex;
+        flex-direction: row;
+        gap: 728px;
+        height: 46px;
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 35px;
+    line-height: 26px;
+    margin: 10px 0 0 100px;
+    .colortext{
+        color: #6C5FBC;
+    }
+    }
+    .view{
+        margin: 0 0 120px 0;
+        display: flex;
+        gap: 20px;                                              
+        p:nth-of-type(1){                           
+            font-family: 'Poppins-Regular';                                                                                                                             
+            color: #ACADB9;
+            font-size: 20px;
+            margin: 0;
+            }
+    .arrow{
+        position: relative;
+        img:nth-of-type(1){
+            width: 32px;
+            height: 6px;
+            position: absolute;
+            top: 14px;
+        }
+        img:nth-of-type(2){
+            width: 16px;
+            height: 32px;
+            position: absolute;
+            top: 0px;
+            left:20px;
+        }    
+    }
+    }        
+    }
+
+.Resturent{
+    display: flex;
+    gap: 30px;
+    margin: 65px 0 0 96px;
+.Resturent1{
+    width: 396px;
+    height: 298px;
+    border: 1.25px solid #F4F4F6;
+    border-radius: 30px;
+    box-shadow: 5.95px 71.35px 35.67px 0px #E5E5E5B2;
+
+.textBG{
+    width: 66px;
+    height: 25px;
+    background-color: #F7EDD0;
+    margin: 11px 0 0 33px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        margin: 3px 0 0 8px;
+        color: #DAA31A;
+    }
+    h1{
+        font-weight: normal;
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        margin: 3px 0 0 8px;
+        color: #FB471D;
+    }
+    }
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';    
+        margin: 1px 0 0 34px;
+        font-size: 26px;
+    }
+.timeText{
+    display: flex;
+    margin: 0;
+img:nth-of-type(1){
+    width: 26px;
+    height: 26px;
+    margin: 0 0 0 6px;
+}
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    color: #8E97A6;
+    font-size: 19px;
+}
+p:nth-of-type(2){
+    font-family: 'Manrope';
+    font-size: 19px;
+    margin: 0 157px 0 8px;
+    color: #8E97A6;
+}
+}
+}
+}
+hr:nth-of-type(1){
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 110px 0 0 97px;
+}
+
+}
+
+/* Цены на блюда */
+.OurTopDishes{
+    margin-top: 220px;
+    .text{
+        display: flex;
+        flex-direction: row;
+        gap: 728px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 26px;
+        margin: 0 0 0 96px;
+    .colortext{
+        color: #6C5FBC;
+    }
+    }
+    .view{
+        display: flex;
+        gap: 20px;                                        
+        p:nth-of-type(1){                           
+            font-family: 'Poppins-Regular';                                                                                                                             
+            color: #ACADB9;
+            font-size: 20px;
+            margin: 0;
+            }
+    .arrow{
+        position: relative;
+        img:nth-of-type(1){
+            width: 32px;
+            height: 6px;
+            position: absolute;
+            top: 14px;
+        }
+        img:nth-of-type(2){
+            width: 16px;
+            height: 32px;
+            position: absolute;
+            top: 0px;
+            left:20px;
+        }    
+    }
+    }  
+
+    }
+
+    .card{
+    margin: 76px 0 0 98px;
+    display: flex;
+    gap: 30px;
+    .card1{
+        width: 225px;
+        height: 390px;
+        border-radius: 35px;
+        box-shadow: 6.84841775894165px 82.18101501464844px 41.09050750732422px 0px #E5E5E5B2;
+        border: 1.44px solid #F4F4F6;
+    img:nth-of-type(1){
+        margin: 10px 0 0 181px;
+        }
+    img:nth-of-type(2){
+        margin-left: 6px;
+        width: 184px;
+        height: 184px;
+        }
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 11px;
+        color: #DAA31A;
+        background-color: #F7EDD0;
+        width: 59px;
+        height: 22px;
+        border-radius: 5px;
+        padding: 0 0 0 4px;
+        margin: 0 0 0 22px;
+        }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        margin: 1px 0 0 23px;
+        font-size: 24px;
+    }
+.timeText{
+    display: flex;
+    margin: 0;
+img:nth-of-type(1){
+    width: 23px;
+    height: 23px;
+    margin: 0 5px 0 5px;
+}
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    color: #8E97A6;
+    font-size: 17px;
+    background-color: white;
+    width: 76px;
+    margin: 1px 0 0 23px;
+}
+p:nth-of-type(2){
+    font-family: 'Manrope';
+    font-size: 17px;  
+    color: #8E97A6;
+    margin: 0;
+}
+}
+.price{
+    display: flex;
+    margin: 0;
+    p:nth-of-type(1){
+        width: 120px;
+        height: 40px;
+        font-family: 'Manrope';
+        font-size: 25.94px;
+        font-weight: 700;
+        line-height: 40.34px;
+        margin: 13px 0 0 23px;
+        padding: 0;
+        color: #323142;
+        background-color: white;
+    span{
+        font-family: 'Manrope';
+        font-size: 18.81px;
+        font-weight: 700;
+        line-height: 40.34px;
+            color: #8E97A6;
+        }
+    }    
+    img{
+        margin: 13px 0 0 0;
+        width: 44px;
+        height: 40px;
+    }
+}
+
+    }
+
+}
+hr:nth-of-type(1){
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 110px 0 0 97px;
+}
+}
+
+/* Контейнер с FAQ */
+.FAQ{
+    width: 1152px;
+    height: 748px;
+    margin: 140px 0 0 144px;
+    img:nth-of-type(1){
+        margin-left: 780px;
+        width: 41px;
+        height: 38px;
+    }
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        color: #323142;
+        text-align: center;
+        font-size: 45px;
+        margin: 17px 0 0 0;
+        .colortext{
+            color: #6C5FBC;
+        }
+    }
+.Questions{
+    height: 494px;
+    margin-top: 90px;
+    .text{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-family: 'Poppins-SemiBold';
+            font-size: 23px;
+            color: #323142;
+            margin: 0 0 0 14px;
+            text-align: start;
+            white-space: nowrap; /* отмена переноса на новую строку*/
+    }
+        img{
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            margin-right: 14px;
+
+            
+        }
+    }
+    hr{
+        margin: 15px 0 29px 0;
+        width: 1152px;
+    }
+}
+}
+.footer{    /*Подвал*/
+    width: 1440px;
+    height: 345px;
+    padding: 96px 0 0 103px;
+    background-color: #EAEAEA;
+    margin-top: 173.5px;
+.logo-menu{
+    height: 57px;
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+img{
+    width: 150.7px;
+    height: 57px;
+}
+.menu{
+    width: 456px;
+    height: 27px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    color: #999999;
+}
+}
+}
+hr{
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-contact{    /*Копирайт и контакты*/
+    margin-top: 57px;
+    width: 1237.62px;
+    height: 25px;
+    gap: 717px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+}
+.contacts-image{
+    width: 234.46px;
+    height: 21.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 53.8px;
+}
+}
+}    /*Конец подвала*/
+}

@@ -1,0 +1,894 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+/* Главный контейнер */
+.container{
+    width: 1440px;
+header{
+    width: 1248px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0 0 96px;
+
+/* иконка */
+.logo{
+    width: 112px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    margin: 9px 103px 0 0 ;
+img:nth-of-type(1){
+    width: 46px;
+    height: 42px;
+    }
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 21px;
+    line-height: 28px;
+    color: #6C5FBC;
+    margin: 7px 0 0 11px;
+    }    
+}
+
+/* menu */
+.nav{
+    width: 374px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    margin: 17px 425px 0 0 ;
+p{
+    font-family: 'Inter-Medium';
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+    margin: 0;
+    }  
+}
+
+/* 2 кнопки */
+.button{
+button:nth-of-type(1){
+    width: 103px;
+    height: 63px;
+    padding: 0 0 0 24px;
+    border: none;
+    background-color: white;
+p{
+    width: 49px;
+    height: 27px;
+    font-family: 'Inter-Medium';
+    font-weight: 700;
+    font-size: 18px;
+    color: #606060;
+    margin: 0;
+    }
+}
+button:nth-of-type(2){
+    width: 122px;
+    height: 63px;
+    padding: 0 0 0 27px;
+    border-radius: 18px;
+    border: none;
+    background-color: #6C5FBC;
+p{
+    font-family: 'Inter-Medium';
+    width: 68px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F9F9F9;
+    margin: 0;
+    }
+}
+
+}
+}
+hr:nth-of-type(1){
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 25px 0 0 97px;
+}
+
+/* Общий контейнер текста и баннера */
+main{
+    display: flex;
+    gap: 37px;
+
+/* Главный текст в блоке  */
+.Hero_Text{
+    width: 568px;
+    height: 492px;
+    margin: 119px 0 0 96px;
+.over{
+    width: 231px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+hr:nth-of-type(1){
+    margin: 0;  
+    width: 54px;
+    height: 0px;
+    margin: 7px 0 0 0 ;
+    }
+p:nth-of-type(1){
+    width: 157px;
+    font-family: 'Poppins-SemiBold';
+    font-weight: 600px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #201F1F33;
+    margin: 0;
+    }
+}
+.content{
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 75px;
+    line-height: 90px;
+    white-space: nowrap;/*досвидания перенос строки*/
+    color: #201F1F;
+    margin: 18px 0 0 0;
+.colortext{
+    color: #5C4EAE;
+}
+    }
+p:nth-of-type(2){
+    font-family: 'Inter-Medium';
+    color: #676767;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 28px;
+.colortext{
+    color: #6155AE;
+    }
+    }
+}
+.heroButtons{
+button:nth-of-type(1){
+    width: 156px;
+    height: 59px;
+    background-color: #6C5FBC;
+    border-radius: 13px;
+    border: none;
+    margin: 53px 18px 0 0;
+p{
+    font-family: 'Poppins-Medium';
+    color: white;
+    }
+    }
+button:nth-of-type(2){
+    width: 110px;
+    height: 59px;
+    background-color: white;
+    border: none;
+    border: 2px solid #6C5FBC;
+    border-radius: 13px;
+    margin: 53px 0 0 0;
+p{
+    font-family: 'Poppins-Medium';
+    color: #6C5FBC;
+    }
+}
+}
+.TrustReviews{
+    width: 301px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+img:nth-of-type(2){
+    width: 91px;
+    height: 20px;
+    margin: 10px 20px 2px 0;
+    }
+img:nth-of-type(3){
+    width: 96px;
+    height: 16px;
+    margin: 10px 9px 0 0 ;
+    }
+p:nth-of-type(1){
+    font-family: 'Plus-Jakarta-Sans';
+    color: #334155;
+    margin: 7px 0 0 0;
+    }
+}
+}
+
+/* Рекламный баннер */
+.hero{
+    width: 680px;
+    height: 607px;
+    margin: 49px 0 0 37px;
+    position: relative;
+    img:nth-of-type(1){
+        position: absolute;
+        bottom: 0px;
+    }
+    img:nth-of-type(2){
+        position: absolute;
+        right: 40px;
+        z-index: 200;
+    }
+.food{
+    width: 603px;
+    height: 540px;
+    margin: 48px 0 0 36px;
+    position: relative;
+    img:nth-of-type(1){
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 100;
+        box-shadow: -9.84px 12.3px 20.51px 0px #00000026;
+
+    }
+    .BG{
+        width: 422px;
+        height: 424px;
+        background-color: #6C5FBC;
+        border-radius: 50%;
+        position: absolute;
+        top: 65px;
+        right: 75px;
+        
+    img:nth-of-type(1){
+        width: 380px;
+        height: 394px;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 0;
+        left: 15px;
+        box-shadow: none;
+        
+
+    }
+    }
+    img:nth-of-type(2){
+        width: 208px;
+        height: 206px;
+        position: absolute;
+        top: 320px;
+        left: 0px;
+        box-shadow: 14.12px 18.83px 37.65px 0px #1A202C26;
+
+    }
+    img:nth-of-type(3){
+        position: absolute;
+        top: 120px;
+        right:30px;
+    }
+    }
+}       
+}
+
+/* Блок с достижениями */
+.features{
+    position: relative;
+    margin: 142px 0 0 0;
+.text{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 132px;
+    top: 0PX;
+    color: white;
+    margin: 49px 0 0 249px;
+    p:nth-of-type(1){
+        font-family: 'Public Sans-Bold';
+        font-size: 43px;
+        line-height: 54px;
+        text-align: center;
+    }
+    p:nth-of-type(2){
+        font-family: "Inter-Medium";
+        color: #C5BFED;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+}
+}
+
+/* Контейнер с мобильным приложением */
+.DownloadApp{
+    width: 1262px;
+    height: 745px;
+    display: flex;
+img:nth-of-type(1){
+    width: 371px;
+    height: 625px;
+    margin: 104px 0 0 208px;
+}
+.sideText{
+    width: 560px;
+    height: 556px;
+    margin: 194px 0 0 219px;
+    position: relative;
+p:nth-of-type(1){
+    font-family: 'Poppins-Bold';
+    font-size: 50px;
+    line-height: 58px;
+    width: 550px;
+.colortext{
+    color: #6C5FBC;
+}
+}    
+
+.circle0{
+    display: flex;
+    .circle{
+        width: 5px;
+        height: 5px;
+        border-radius:50% ;
+        background-color: #676767;
+        margin: 10px 5px 0 0  ;
+    }
+    p:nth-last-of-type(1){
+        font-family: 'Inter-Regular';
+        color: #676767;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 28px 0;
+    }
+}
+.button{
+    position: relative;
+    button{
+        width: 186px;
+        height: 63px;
+        border-radius: 15px;
+        border: none;
+        background-color: #6C5FBC;
+    p:nth-of-type(1){
+        font-family: 'Poppins-Medium';
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        width: 92px;
+        top: 0px;
+        margin: 2px 0 0 30px;
+        }
+    img:nth-of-type(1){
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 18px;
+        }
+    }
+}
+
+img:nth-of-type(1){
+    margin: 0;
+    width: 230px;
+    height: 80px; 
+    position: absolute;
+    top: 390px;
+    left: 150px;
+}   
+}
+}
+hr:nth-of-type(2){
+    width: 1246px;
+    margin: 98px 0 0 97px;
+    border: 1px solid #CBCBCB
+}
+
+/* Лучшие блюда */
+.OurTopRestaurants{
+    height: 641px;
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 45px;
+    line-height: 26px;
+    margin: 100px 0 0 485px;
+    .colortext{
+        color: #6C5FBC;
+    }
+    }
+.Resturent{
+    display: flex;
+    gap: 30px;
+    margin: 86px 0 0 96px;
+.Resturent1{
+    width: 396px;
+    height: 298px;
+    border: 1.25px solid #F4F4F6;
+    border-radius: 30px;
+    box-shadow: 5.95px 71.35px 35.67px 0px #E5E5E5B2;
+
+.textBG{
+    width: 66px;
+    height: 25px;
+    background-color: #F7EDD0;
+    margin: 11px 0 0 33px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        margin: 3px 0 0 8px;
+        color: #DAA31A;
+    }
+    h1{
+        font-weight: normal;
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        margin: 3px 0 0 8px;
+        color: #FB471D;
+    }
+    }
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';    
+        margin: 1px 0 0 34px;
+        font-size: 26px;
+    }
+.timeText{
+    display: flex;
+    margin: 0;
+img:nth-of-type(1){
+    width: 26px;
+    height: 26px;
+    margin: 0 0 0 6px;
+}
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    color: #8E97A6;
+    font-size: 19px;
+}
+p:nth-of-type(2){
+    font-family: 'Manrope';
+    font-size: 19px;
+    margin: 0 157px 0 8px;
+    color: #8E97A6;
+}
+}
+}
+}
+.view{
+    margin: 0 0 120px 110px;
+    display: flex;
+    gap: 20px;                                              
+    p:nth-of-type(1){                           
+        font-family: 'Poppins-Regular';                                                                                                                             
+        color: #ACADB9;
+        font-size: 20px;
+        margin: 65px 0 0 1100px;                                                                                                                    
+        width: 90px;
+        }
+.arrow{
+    position: relative;
+    img:nth-of-type(1){
+        width: 32px;
+        height: 6px;
+        position: absolute;
+        top: 75px;
+    }
+    img:nth-of-type(2){
+        width: 16px;
+        height: 32px;
+        position: absolute;
+        top: 61px;
+        left:20px;
+    }    
+}
+}
+}
+
+/* Цена на блюда */
+.OurTopDishes{
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 26px;
+        margin: 100px 0 0 549px;
+    .colortext{
+        color: #6C5FBC;
+    }
+    }
+    .card{
+    margin: 76px 0 0 98px;
+    display: flex;
+    gap: 30px;
+    .card1{
+        width: 225px;
+        height: 390px;
+        border-radius: 35px;
+        box-shadow: 6.84841775894165px 82.18101501464844px 41.09050750732422px 0px #E5E5E5B2;
+        border: 1.44px solid #F4F4F6;
+    img:nth-of-type(1){
+        margin: 10px 0 0 181px;
+        }
+    img:nth-of-type(2){
+        margin-left: 6px;
+        width: 184px;
+        height: 184px;
+        }
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 11px;
+        color: #DAA31A;
+        background-color: #F7EDD0;
+        width: 59px;
+        height: 22px;
+        border-radius: 5px;
+        padding: 0 0 0 4px;
+        margin: 0 0 0 22px;
+        }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        margin: 1px 0 0 23px;
+        font-size: 23px;
+    }
+.timeText{
+    display: flex;
+    margin: 0;
+img:nth-of-type(1){
+    width: 23px;
+    height: 23px;
+    margin: 0 5px 0 5px;
+}
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    color: #8E97A6;
+    font-size: 17px;
+    background-color: white;
+    width: 76px;
+    margin: 1px 0 0 23px;
+}
+p:nth-of-type(2){
+    font-family: 'Manrope';
+    font-size: 17px;  
+    color: #8E97A6;
+    margin: 0;
+}
+}
+.price{
+    display: flex;
+    margin: 0;
+    p:nth-of-type(1){
+        width: 120px;
+        height: 40px;
+        font-family: 'Manrope';
+        font-size: 25.94px;
+        font-weight: 700;
+        line-height: 40.34px;
+        margin: 13px 0 0 23px;
+        padding: 0;
+        color: #323142;
+        background-color: white;
+    span{
+        font-family: 'Manrope';
+        font-size: 18.81px;
+        font-weight: 700;
+        line-height: 40.34px;
+            color: #8E97A6;
+        }
+    }    
+    img{
+        margin: 13px 0 0 0;
+        width: 44px;
+        height: 40px;
+    }
+}
+
+    }
+
+}
+.view{
+    margin: 0 0 120px 0;
+    display: flex;
+    gap: 20px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        color: #ACADB9;
+        font-size: 20px;
+        margin: 65px 0 0 1200px;
+        width: 90px;
+        }
+.arrow{
+    position: relative;
+    img:nth-of-type(1){
+        width: 32px;
+        height: 6px;
+        position: absolute;
+        top: 75px;
+    }
+    img:nth-of-type(2){
+        width: 16px;
+        height: 32px;
+        position: absolute;
+        top: 61px;
+        left:20px;
+    }    
+}
+}
+}
+
+/* Контейнер с контролем покупок */
+.ControlPurchase{
+    display: flex;
+    gap: 141px;
+.PurchaseText{
+    p:nth-of-type(1){
+        margin: 103px 0 0 108px;
+        font-family: 'Poppins-Bold';
+        font-size: 50.92px;
+        line-height: 58.2px;
+    span{
+        font-family: 'Poppins-Bold';
+        font-size: 50.92px;
+        line-height: 58.2px;
+        color: #6C5FBC  ;
+    }
+    }
+.st{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 48px 0 0 97px;
+.st1{
+    width: 345.17px;
+    height: 88.3px;
+    border-radius: 12px;
+    opacity: 0px;
+    box-shadow: 0px 20.06800651550293px 30.10201072692871px 0px #4646461A;
+    display: flex;
+.imageText{
+    display: flex;
+    gap: 20px;
+    img{
+        width: 77px;
+        height: 80px;
+        margin: 4px 0 0 17px;
+    }
+.text{
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 19.06px;
+        font-weight: 600;
+        line-height: 26.69px;
+        margin: 17px 0 4px 0;
+    }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-size: 12.04px; 
+        font-weight: 500;
+        line-height: 16.86px;
+    }      
+}
+}
+p:nth-of-type(1){
+    font-family: 'Poppins-Regular';
+    font-size: 13.04px;
+    font-weight: 500;
+    line-height: 18.26px;
+    margin: 56px 0 0 43px;
+
+
+}
+}
+}
+}
+.PurchaseIllustration{
+    width: 534px;
+    height: 466px;
+    border: 1.57px solid #EDF2F7;
+    border-radius: 25.13px;
+    position: relative;
+    margin: 100px 0 0 0;
+    box-shadow:  0 30px 50px #4646461A ;
+p:nth-of-type(1){
+    font-family: 'Manrope-800';
+    font-size: 28px;
+    padding: 46px 0 0 41px;
+    width: 190px;
+}
+button{
+    width: 176px;
+    height: 53px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 38px;
+    right: 38px;
+    display: flex;
+    border: none;
+    border-radius: 12px;
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 19px;
+    padding: 0;
+    width: 110px;
+    margin: 12px 0 0 19px;
+
+}
+img:nth-of-type(1){
+    margin: 14px 14px 0 0 ;
+}
+}
+.card{
+    border: 1.57px solid #EDF2F7;
+    width: 459px;
+    height: 135px;  
+    margin: 37px 0 22px 37px;
+    border-radius: 19px;
+.name{
+    display: flex;
+    gap: 18px;
+    width: 410px;
+    margin: 25px 0 0 25px;
+img:nth-of-type(1){
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.text{
+    p:nth-of-type(1){
+        padding: 0;
+        font-size: 19px;
+        color: #1A202C;
+        margin: 0;
+    }    
+    p:nth-of-type(2){
+        color: #A0AEC0;
+        font-family: 'Manrope';
+        font-weight: 500;
+        margin: 3px 0 0 0;
+    }
+}
+p:nth-of-type(1){
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Manrope-800';
+    margin: 12px 0 0 0;
+}
+
+}
+img:nth-of-type(1){
+    margin: 20px 0 0 25px;
+}   
+}
+}
+}   
+hr{
+    border: 1px solid #CBCBCB;
+    width: 1246px;
+    margin: 138px 0 0 101px;
+}
+.banner{    /*Баннер скидки*/
+    margin: 182px 0 0 110px;
+    width: 1214px;
+    height: 280pxpx;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/Верстка/assets/img/media/Menu-Map/Banner.png);
+    gap: 362px;
+.sale{
+    height: 182px;
+    width: 439.73px;
+    margin: 37px 0 0 66px;
+p{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #FFFFFF;
+}
+.Enter-Email{
+    width: 439.73px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    gap: 62.25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 14.23px;
+    padding: 7.25px 0 0 22px;
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16.27px;
+    line-height: 24.4px;
+    color: #878787;
+    margin-top: 14px;
+}
+button{
+    width: 132.37px;
+    height: 53.44px;
+    border: none;
+    border-radius: 11.25px;
+    background-color: #6C5FBC;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14.75px;
+    line-height: 22.13px;
+    color: #F7F8FA;
+    margin: 0;
+}
+}
+}
+}
+img{
+    width: 274.06px;
+    height: 274.06px;
+    position: relative;
+    top: 64px;
+}
+}
+.footer{    /*Подвал*/
+    width: 1440px;
+    height: 345px;
+    padding: 96px 0 0 103px;
+    background-color: #EAEAEA;
+    margin-top: 216px;
+.logo-menu{
+    height: 57px;
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+img{
+    width: 150.7px;
+    height: 57px;
+}
+.menu{
+    width: 456px;
+    height: 27px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    color: #999999;
+}
+}
+}
+hr{
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-contact{    /*Копирайт и контакты*/
+    margin-top: 57px;
+    width: 1237.62px;
+    height: 25px;
+    gap: 717px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+}
+.contacts-image{
+    width: 234.46px;
+    height: 21.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 53.8px;
+}
+}
+}
+}   

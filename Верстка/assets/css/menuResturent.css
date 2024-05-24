@@ -1,0 +1,486 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+/* Главный контейнер */
+.container{
+    width: 1440px;
+                /* начало header */
+header{
+    width: 1248px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0 0 96px;
+.logo{
+    width: 112px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    margin: 9px 103px 0 0 ;
+img:nth-of-type(1){
+    width: 46px;
+    height: 42px;
+    }
+p:nth-of-type(1){
+    font-family: 'Poppins-SemiBold';
+    font-size: 21px;
+    line-height: 28px;
+    color: #6C5FBC;
+    margin: 7px 0 0 11px;
+    }    
+}
+.nav{
+    width: 374px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    margin: 17px 425px 0 0 ;
+h1{
+    font-family: 'Inter-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C5FBC;
+    }
+p{
+    font-family: 'Inter-Medium';
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+    margin: 0;
+    }  
+}
+.button{
+button:nth-of-type(1){
+    width: 103px;
+    height: 63px;
+    padding: 0 0 0 24px;
+    border: none;
+    background-color: white;
+p{
+    width: 49px;
+    height: 27px;
+    font-family: 'Inter-Medium';
+    font-weight: 700;
+    font-size: 18px;
+    color: #606060;
+    margin: 0;
+    }
+}
+button:nth-of-type(2){
+    width: 122px;
+    height: 63px;
+    padding: 0 0 0 27px;
+    border-radius: 18px;
+    border: none;
+    background-color: #6C5FBC;
+p{
+    font-family: 'Inter-Medium';
+    width: 68px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F9F9F9;
+    margin: 0;
+    }
+}
+
+}
+}               /* конец header */
+hr:nth-of-type(1){
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 25px 0 0 97px;
+}
+
+/* Начало Content */
+.content{
+    margin: 106px 0 0 104px;
+    width: 1237px;
+    height: 497px;        
+    border-radius: 30px;
+    box-shadow: 7.57px 90.86px 45.43px 0px #E5E5E5B2;
+    border: 1.59px solid #F4F4F6;
+    img:nth-of-type(1){
+        width: 1237px;
+        height: 378px;
+        vertical-align: bottom;
+    }
+    .info{
+        display: flex; 
+        
+        .text{
+            display: flex;
+            p:nth-of-type(1){
+                font-family: 'Poppins-SemiBold';
+                color: #323142;
+                font-size: 40px;
+                margin: 30px 170px 0 46px;
+            }
+            p{
+                font-family: 'Manrope';
+                font-weight: 400;
+                color: #8E97A6;
+                font-size: 26px;
+                margin-top: 39px;
+            }
+            img:nth-of-type(1){
+                width: 35px;
+                height: 35px;
+                margin: 39px 9px 0 9px;
+            }
+        }
+    img:nth-of-type(1){
+        width: 62px;
+        height: 62px;
+        margin: 26px 0 0 376px;
+    }
+    }
+}
+/* конец content */
+
+/* Контейнер с Popular  */
+.OurTopDishes{
+    width: 1249px;
+    height: 479px;
+    margin  : 148px 0 0 100px;
+    .Image:nth-of-type(1){
+        margin-left: 6px;
+
+    }
+
+    .card{
+    margin: 60px 0 0 0;
+    display: flex;
+    gap: 30px;
+    .card1{
+        width: 225px;
+        height: 390px;
+        border-radius: 35px;
+        box-shadow: 6.84841775894165px 82.18101501464844px 41.09050750732422px 0px #E5E5E5B2;
+        border: 1.44px solid #F4F4F6;
+    img:nth-of-type(1){
+        margin: 10px 0 0 181px;
+        }
+    img:nth-of-type(2){
+        margin-left: 6px;
+        width: 184px;
+        height: 184px;
+        }
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 11px;
+        color: #DAA31A;
+        background-color: #F7EDD0;
+        width: 59px;
+        height: 22px;
+        border-radius: 5px;
+        padding: 0 0 0 4px;
+        margin: 0 0 0 22px;
+        }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        margin: 1px 0 0 23px;
+        font-size: 24px;
+    }
+.timeText{
+    display: flex;
+    margin: 0;
+img:nth-of-type(1){
+    width: 23px;
+    height: 23px;
+    margin: 0 5px 0 5px;
+}
+p:nth-of-type(1){
+    font-family: 'Manrope';
+    color: #8E97A6;
+    font-size: 17px;
+    background-color: white;
+    width: 76px;
+    margin: 1px 0 0 23px;
+}
+p:nth-of-type(2){
+    font-family: 'Manrope';
+    font-size: 17px;  
+    color: #8E97A6;
+    margin: 0;
+}
+}
+.price{
+    display: flex;
+    margin: 0;
+    p:nth-of-type(1){
+        width: 120px;
+        height: 40px;
+        font-family: 'Manrope';
+        font-size: 25.94px;
+        font-weight: 700;
+        line-height: 40.34px;
+        margin: 13px 0 0 23px;
+        padding: 0;
+        color: #323142;
+        background-color: white;
+    span{
+        font-family: 'Manrope';
+        font-size: 18.81px;
+        font-weight: 700;
+        line-height: 40.34px;
+            color: #8E97A6;
+        }
+    }    
+    img{
+        margin: 13px 0 0 0;
+        width: 44px;
+        height: 40px;
+    }
+}
+
+    }
+
+}
+
+}
+/* Конец с Popular */
+
+/* Начало Chicken Vegetables */
+.OurTopDishes{
+    width: 1249px;
+    height: 479px;
+    margin: 145px 0 0 100px;
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        font-size: 35px;
+        margin-left: 6px;
+        color: #323142;
+    }
+    .card{
+    margin: 60px 0 0 0;
+    display: flex;
+    gap: 30px;
+    .card1{
+        width: 225px;
+        height: 390px;
+        border-radius: 35px;
+        box-shadow: 6.84841775894165px 82.18101501464844px 41.09050750732422px 0px #E5E5E5B2;
+        border: 1.44px solid #F4F4F6;
+    img:nth-of-type(1){
+        margin: 10px 0 0 181px;
+        }
+    img:nth-of-type(2){
+        margin-left: 6px;
+        width: 184px;
+        height: 184px;
+        }
+    p:nth-of-type(1){
+        font-family: 'Poppins-Regular';
+        font-size: 11px;
+        color: #DAA31A;
+        background-color: #F7EDD0;
+        width: 59px;
+        height: 22px;
+        border-radius: 5px;
+        padding: 0 0 0 4px;
+        margin: 0 0 0 22px;
+        }
+    p:nth-of-type(2){
+        font-family: 'Poppins-Regular';
+        font-weight: 600;
+        margin: 1px 0 0 23px;
+        font-size: 24px;
+    }
+
+    .timeText{
+        display: flex;
+        margin: 0;
+    img:nth-of-type(1){
+        width: 23px;
+        height: 23px;
+        margin: 0 5px 0 5px;
+    }
+    p:nth-of-type(1){
+        font-family: 'Manrope';
+        color: #8E97A6;
+        font-size: 17px;
+        background-color: white;
+        width: 76px;
+        margin: 1px 0 0 23px;
+    }
+    p:nth-of-type(2){
+        font-family: 'Manrope';
+        font-size: 17px;  
+        color: #8E97A6;
+        margin: 0;
+    }
+    }
+
+    .price{
+        display: flex;
+        margin: 0;
+        p:nth-of-type(1){
+            width: 120px;
+            height: 40px;
+            font-family: 'Manrope';
+            font-size: 25.94px;
+            font-weight: 700;
+            line-height: 40.34px;
+            margin: 13px 0 0 23px;
+            padding: 0;
+            color: #323142;
+            background-color: white;
+        span{
+            font-family: 'Manrope';
+            font-size: 18.81px;
+            font-weight: 700;
+            line-height: 40.34px;
+                color: #8E97A6;
+            }
+        }    
+        img{
+            margin: 13px 0 0 0;
+            width: 44px;
+            height: 40px;
+        }
+    }
+    }
+    
+
+}
+
+}
+/* Конец Chicken Vegetables */
+hr{
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin: 150px 0 0 101px;
+}
+
+/* Начало FAQ */
+.FAQ{
+    width: 1152px;
+    height: 748px;
+    margin: 140px 0 0 144px;
+    img:nth-of-type(1){
+        margin-left: 780px;
+        width: 41px;
+        height: 38px;
+    }
+    p:nth-of-type(1){
+        font-family: 'Poppins-SemiBold';
+        color: #323142;
+        text-align: center;
+        font-size: 45px;
+        margin: 17px 0 0 0;
+        .colortext{
+            color: #6C5FBC;
+        }
+    }
+.Questions{
+    height: 494px;
+    margin-top: 90px;
+    .text{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p{
+            font-family: 'Poppins-SemiBold';
+            font-size: 23px;
+            color: #323142;
+            margin: 0 0 0 14px;
+            text-align: start;
+            white-space: nowrap; /* отмена переноса на новую строку*/
+    }
+        img{
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            margin-right: 14px;
+
+        }
+    p:nth-of-type(2){
+        margin:20px 0 43px 8px;
+        font-family: 'Poppins-Regular';
+        color: #686868;
+        font-size: 20px;
+    }
+    }
+    hr{
+        margin: 15px 0 29px 0;
+        width: 1152px;
+    }
+}
+}
+/* Конец FAQ */
+.footer{    /*Подвал*/
+    width: 1440px;
+    height: 345px;
+    padding: 96px 0 0 103px;
+    background-color: #EAEAEA;
+    margin-top: 194.5px;
+.logo-menu{
+    height: 57px;
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+img{
+    width: 150.7px;
+    height: 57px;
+}
+.menu{
+    width: 456px;
+    height: 27px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    color: #999999;
+}
+}
+}
+hr{
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-contact{    /*Копирайт и контакты*/
+    margin-top: 57px;
+    width: 1237.62px;
+    height: 25px;
+    gap: 717px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+}
+.contacts-image{
+    width: 234.46px;
+    height: 21.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 53.8px;
+}
+}
+}
+}

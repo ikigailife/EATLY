@@ -1,0 +1,606 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+}
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.container__menu-map{    /*Главный контейнер*/
+    width: 1440px;
+.menu-map__header{    /*Шапка*/
+    width: 1440px;
+    height: 135px;
+    padding: 48px 0 0 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+img{
+    width: 112px;
+    height: 42px;
+}
+.header__textBlock{
+    width: 375.5px;
+    height: 27px;
+    margin-left: 103px;
+    display: flex;
+    flex-direction: row;
+    gap: 35.5px;
+
+p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+p.change-text-1:hover{
+    color: #6C5FBC;
+}
+p.change-text-2:hover{
+    color: #6C5FBC;
+}
+p.change-text-3:hover{
+    color: #6C5FBC;
+}
+p.change-text-4:hover{
+    color: #6C5FBC;
+}
+}
+.header__buttons{
+    width: 233px;
+    height: 63px;
+    margin-left: 425px;
+.button_1{
+    width: 102.5px;
+    height: 62.5px;
+    border: none;
+    background-color: #fff;
+p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #606060;
+}
+}
+.button_2{
+    width: 121.5px;
+    height: 62.5px;
+    border: none;
+    background-color: #6C5FBC;
+    border-radius: 18px;
+p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+}
+}
+}
+hr{
+    margin-left: 97px;
+    width: 1246px; 
+}
+.menu-map__map{    /*Блок карты*/
+    width: 1248px;
+    height: 734px;
+    background-image: url(../img/media/Menu-Map/Map.png);
+    margin: 79px 0 0 96px;
+    padding: 83px 0 0 344px;
+.map__location{    /*Карта*/
+    width: 408px;
+    height: 522px;
+}
+.map__UserCard{    /*Анкета пользователя*/
+    width: 451.5px;
+    height: 319,5px;
+    margin-left: 72px;
+.UserCard__black{
+    height: 107.5px;
+    background-color: #323142;
+    display: flex;
+    font-display: row;
+    border-radius: 24.93px 24.93px 0 0;
+    padding: 21px 0 0 20px;
+img{
+    width: 61.5px;
+    height: 59px;
+}
+div{ 
+    padding-left: 21px;
+h1{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 22.3px;
+    font-weight: 500;
+    line-height: 31.23px;
+}
+p{
+    color: #fff;
+    font-family: 'Poppins';
+    font-family: 15.74px;
+    font-weight: 400;
+    line-height: 22.04px;
+}
+}
+}
+.UserCard__white{
+    width: 451.34px;
+    height: 212.5px;
+    background-color: #fff;
+    display: flex;
+    font-display: row;
+    padding: 31.5px 0 0 19.5px;
+    box-shadow: 0 10px 50px gray;
+    border-radius: 0 0 24.93px 24.93px;
+div:nth-of-type(1){
+    width: 42px;
+    height: 126px;
+img:nth-of-type(1){
+    width: 42px;
+    height: 42px;
+}
+img:nth-of-type(2){
+    height: 42px;
+    margin-left: 21px;
+}
+img:nth-of-type(3){
+    width: 42px;
+    height: 42px;
+}
+}
+div:nth-of-type(2){
+    width: 161px;
+    height: 125px;
+    margin-left: 30px;
+div{
+    width: 161px;
+    height: 54.5px;
+h1{
+    color: #ACADB9;
+    font-size: 11.7px;
+    line-height: 16.38px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+p{
+    margin-top: 2.5px;
+    font-size: 13.02px;
+    line-height: 18.22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+}
+div:nth-of-type(2){
+    margin: 0;
+    margin-top: 29.5px;
+}
+}
+div:nth-of-type(3){
+    width: 131px;
+    margin: 104px 0 0 47px;
+button{
+    width: 131.2px;
+    height: 41.99px;
+    background-color: #6C5FBC;
+    border: none;
+    border-radius: 3.94px;
+p{
+    font-size: 15.64px;
+    line-height: 21.9px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #fff;
+}
+}
+}
+}
+}
+}
+.Review-Payment{    /*Блок заказа пользователя*/
+    width: 977.29px;
+    height: 767px;
+    padding: 145.5px 0 0 143px;
+    margin-top: 146.5px;
+    margin-left: 90px;
+img{
+    margin-left: 830px;
+    width: 41px;
+    height: 38.99px;
+}
+
+.Apply-coupon{    /*Блок купона*/
+    width: 681px;
+    height: 397px;
+.ATC1{
+    margin-left: 150px;
+    width: 681px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 11.97px;
+    box-shadow: 0px 9px 20px rgb(209, 209, 209);
+img{
+    margin: 0;
+    width: 98.71px;
+    height: 102.31px;
+    margin-top: 5px;
+}
+.text{
+    width: 139px;
+    height: 59.91px;
+    margin: 19px 0 0 14px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+}
+.Add_Or_Minus{
+    width: 106.05px;
+    height: 63px;
+    margin: 18px 0 0 264px;
+.quantity{
+    height: 31.54px;
+    width: 106.05px;
+    display: flex;
+    flex-direction: row;
+    gap: 8.5px;
+img{
+    width: 33.36px;
+    height: 31.54px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17.58px;
+    line-height: 24.62px;
+    margin: 0;
+    width: 23.61px;
+    height: 25.37px;
+    margin-top: 10px;
+}
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15.95px;
+    line-height: 22.33px;
+    margin: 8.5px 0 0 24px;
+}
+}
+}
+.ATC2{
+    margin-left: 150px;
+    width: 681px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+    border-radius: 11.97px;
+    box-shadow: 0px 9px 20px rgb(209, 209, 209);
+img{
+    margin: 0;
+    width: 98.71px;
+    height: 102.31px;
+    margin-top: 5px;
+}
+.text{
+    width: 139px;
+    height: 59.91px;
+    margin: 19px 0 0 14px;
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+}
+.Add_Or_Minus{
+    width: 106.05px;
+    height: 63px;
+    margin: 18px 0 0 264px;
+.quantity{
+    height: 31.54px;
+    width: 106.05px;
+    display: flex;
+    flex-direction: row;
+    gap: 8.5px;
+img{
+    width: 33.36px;
+    height: 31.54px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17.58px;
+    line-height: 24.62px;
+    margin: 0;
+    width: 23.61px;
+    height: 25.37px;
+    margin-top: 10px;
+}
+}
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15.95px;
+    line-height: 22.33px;
+    margin: 8.5px 0 0 24px;
+}
+}
+}
+.Coupon{
+    width: 682px;
+    height: 70px;
+    margin: 89px 0 0 150px;
+    display: flex;
+    flex-direction: row;
+.Input_coupon{
+    width: 541px;
+    height: 70px;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 11.97px;
+img{
+    width: 29.99px;
+    height: 21.77px;
+    margin: 24px 0 0 21px;
+}
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.15px;
+    color: #C2C3CB;
+    margin: 24px 0 0 14px;
+}
+}
+button{
+    width: 132px;
+    height: 70px;
+    background-color: #6C5FBC;
+    border-radius: 11.97px;
+    border: none;
+    margin-left: 8px;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.15px;
+    color: #F3F5F6;
+}
+}
+}
+}
+.Total{    /*Общая цена*/
+    width: 692px;
+    height: 141.32px;
+    margin: 51.5px 0 0 150px;
+img{
+    width: 680.35px;
+    height: 1px;
+    margin: 0;
+}
+.subtotal{
+    width: 691.24px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    gap: 543px;
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.5px;
+    color: #323142;
+}
+}
+.delivery{
+    width: 691.24px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    gap: 543px;
+    margin-top: 15.5px;
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.5px;
+    color: #323142;
+}
+}
+.Total{
+    width: 691px;
+    height: 30px;
+    margin: 0;
+    margin-top: 28.5px;
+    display: flex;
+    flex-direction: row;
+    gap: 546px;
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29.37px;
+    color: #323142;
+}
+}
+}
+.Review-Address-and-Payments{
+    height: 145px;
+    width: 977.29px;
+    display: flex;
+    flex-direction: row;
+    
+img{
+    margin: 0;
+    width: 120.27px;
+    height: 120.27px;
+}
+button{
+    margin-top: 60px;
+    width: 681px;
+    height: 77px;
+    border: none;
+    border-radius: 15.04px;
+    background-color: #6C5FBC;
+p{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFF3EB;
+}
+}
+}
+}
+.banner{    /*Баннер скидки*/
+    margin: 405px 0 0 110px;
+    width: 1214px;
+    height: 280pxpx;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/Верстка/assets/img/media/Menu-Map/Banner.png);
+    gap: 362px;
+.sale{
+    height: 182px;
+    width: 439.73px;
+    margin: 37px 0 0 66px;
+p{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #FFFFFF;
+}
+.Enter-Email{
+    width: 439.73px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    gap: 62.25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 14.23px;
+    padding: 7.25px 0 0 22px;
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16.27px;
+    line-height: 24.4px;
+    color: #878787;
+    margin-top: 14px;
+}
+button{
+    width: 132.37px;
+    height: 53.44px;
+    border: none;
+    border-radius: 11.25px;
+    background-color: #6C5FBC;
+p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14.75px;
+    line-height: 22.13px;
+    color: #F7F8FA;
+    margin: 0;
+}
+}
+}
+}
+img{
+    width: 274.06px;
+    height: 274.06px;
+    position: relative;
+    top: 64px;
+}
+}
+.footer{    /*Подвал*/
+    width: 1440px;
+    height: 345px;
+    padding: 96px 0 0 103px;
+    background-color: #EAEAEA;
+    margin-top: 171px;
+.logo-menu{
+    height: 57px;
+    width: 1246px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+img{
+    width: 150.7px;
+    height: 57px;
+}
+.menu{
+    width: 456px;
+    height: 27px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17.83px;
+    line-height: 26.74px;
+    color: #999999;
+}
+}
+}
+hr{
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-contact{    /*Копирайт и контакты*/
+    margin-top: 57px;
+    width: 1237.62px;
+    height: 25px;
+    gap: 717px;
+    display: flex;
+    flex-direction: row;
+p{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+}
+.contacts-image{
+    width: 234.46px;
+    height: 21.42px;
+    display: flex;
+    flex-direction: row;
+    gap: 53.8px;
+}
+}
+}
+}
